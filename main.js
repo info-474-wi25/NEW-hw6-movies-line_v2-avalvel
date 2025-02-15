@@ -111,8 +111,4 @@ d3.csv("movies.csv").then(data => {
         .attr("y", -margin.left / 2)
         .attr("x", -height / 2)
         .text("Total Gross (Billion $)");
-
-    // 7.c: Y-axis label (Average IMDb Score)
-        
-
 });
